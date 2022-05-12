@@ -1,0 +1,22 @@
+table,th,td{
+    border: 3px red solid;
+    color: skyblue;
+    margin: 20px;
+    border-spacing: 10px;
+}
+table{
+    width: 90%;
+}
+th,td{
+    text-align: center;
+    height: 70px;
+    padding: 15px;
+}
+tr:nth-child(2){
+    height: 200px;
+}
+td>img{
+    height: 90%;
+    object-fit: cover;
+    
+}
